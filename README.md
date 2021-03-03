@@ -1,16 +1,21 @@
 # fcm-test
 
+## Install firebase tools
+```
+npm install -g firebase-tools
+```
+
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles build then run on localhost
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies then deploy on Firebase
 ```
 npm run build
 ```

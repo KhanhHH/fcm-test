@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "dev": "vue-cli-service build && firebase serve -p 8081",
+    "build": "vue-cli-service build && firebase deploy",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "firebase": "^8.2.9",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11"
   },

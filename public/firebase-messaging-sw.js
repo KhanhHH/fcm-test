@@ -8,13 +8,13 @@ importScripts("https://www.gstatic.com/firebasejs/8.2.9/firebase-messaging.js");
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 firebase.initializeApp({
-  apiKey: "AIzaSyBey7-yNYXBtHcpP6M--yprW-mgK7WHhZ8",
-  authDomain: "vimc-c2136.firebaseapp.com",
-  databaseURL: "https://vimc-c2136.firebaseio.com",
-  projectId: "vimc-c2136",
-  storageBucket: "vimc-c2136.appspot.com",
-  messagingSenderId: "902294736141",
-  appId: "1:902294736141:web:955b321449d11ed32b3444"
+  apiKey: "AIzaSyDHc89hy8sVBXJrbBnkZ3d9JQK9W5wr9-c",
+  authDomain: "my-e-office.firebaseapp.com",
+  databaseURL: "https://my-e-office.firebaseio.com",
+  projectId: "my-e-office",
+  storageBucket: "my-e-office.appspot.com",
+  messagingSenderId: "624879123062",
+  appId: "1:624879123062:web:2d810a7f61e5bc0607fd57"
 });
 
 const messaging = firebase.messaging();
@@ -31,5 +31,5 @@ messaging.onBackgroundMessage(payload => {
     icon: "/firebase-logo.png"
   };
 
-  self.registration.showNotification(notificationTitle, notificationOptions);
+  // self.registration.showNotification(notificationTitle, notificationOptions);
 });

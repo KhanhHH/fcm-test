@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "vimc-c2136"
+    "default": "my-e-office",
+    "prod": "my-e-office"
   }
 }
